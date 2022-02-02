@@ -1,0 +1,71 @@
+// Dashboard CSS
+.background {
+    background-color: #111111;
+}
+
+.navbar-custom {
+    background-color: #0A0A0A;
+}
+
+.navbar-nav {
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color: gray;
+    }
+}
+
+.form-control {
+    border-radius: 10px;
+    width: 259px;
+    height: 36px;
+}
+
+.section-highlight {
+    .highlight-movie {
+        margin-top: 160px;
+        margin-bottom: 110px;
+    }
+}
+
+.nav-item {
+    a {
+        font-weight: 500;
+    }
+}
+
+.nav-link {
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.section-popular {
+    margin-bottom: 60px;
+
+    h4 {
+        color: white;
+    }
+
+    img {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+.section-recentupdate {
+    margin-bottom: 100px;
+
+    h4 {
+        color: white;
+    }
+
+    img {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+.SC {
+  padding-top: 5rem;
+}
+
+.nav-item-1 {
+  background: white;
+  width: 300px;
+  height: 28px;
+  border-radius: 20px;
+  align-items: center;
+  padding: 0 15px;
+  display: flex;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+
+.nav-item-1 input {
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
+
+.nav-item-1 input,
+input::-webkit-input-placeholder {
+  font-size: 10px;
+}
+
+.search-box {
+  color: black;
+}
+
+.nav-link {
+  margin-right: 50px;
+}
+
+.navbar-nav {
+  margin-right: 200px;
+}
+
+.akun {
+  margin-right: 50px;
+}
+
+.nav-user {
+  border-radius: 50%;
+}
+
+.online {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.awal {
+  background-color: #0a0a0a;
+}
+.film {
+  color: white;
+}
+
+.logo-nav {
+  margin-bottom: 3px;
+}
+
+.img-home {
+  border-radius: 20px;
+  margin-top: 200px;
+  height: 600px;
+}
+
+/*home*/
+.home {
+  position: relative;
+}
+.img-home {
+  position: relative;
+}
+.img-home img {
+  width: 100%;
+}
+.title {
+  top: 60%;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  font-size: 80px;
+}
+.sub-1 {
+  top: 73%;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+}
+.sub-2 {
+  top: 76%;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+}
+/*home*/
+.sub {
+  margin-top: 70px;
+}
+
+.d-inline-block {
+  margin-left: 50px;
+}
+
+@media (min-width: 312px) and (max-width: 425px) {
+  /*Navbar*/
+  .d-inline-block {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  /*navbar*/
+
+  /*home*/
+  .img-home {
+    height: 300px;
+  }
+  .home {
+    position: relative;
+  }
+  .img-fluid {
+    position: relative;
+  }
+  .img-fluid img {
+    width: 100%;
+  }
+  .title {
+    top: 64%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+  .sub-1 {
+    top: 72%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .sub-2 {
+    top: 76%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  /*home*/
+}

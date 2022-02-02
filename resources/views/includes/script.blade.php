@@ -1,0 +1,1 @@
+<script src="{{ url ('frontend/libraries/bootstrap/js/bootstrap.min.js') }}"></script>

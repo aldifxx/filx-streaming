@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #ECECEC;
+}
+
+.section-register .logo-header {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.section-register .form-register p {
+  font-weight: bolder;
+  font-size: 42px;
+  font-family: "Poppins";
+}
+.section-register .form-register .username {
+  margin-left: -134px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+.section-register .form-register .email {
+  margin-left: -105px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+.section-register .form-register .password {
+  margin-left: -140px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.section-register .form-register input {
+  border: none;
+  background-color: #494949;
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+.section-register .form-register ::-moz-placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.section-register .form-register :-ms-input-placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.section-register .form-register ::placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.section-register .form-register .btn-register {
+  margin-top: 30px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  width: 172px;
+  height: 42px;
+}
+.section-register .form-register span {
+  margin-top: 30px;
+  margin-left: -63px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.section-register .form-register a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.section-payment .logo-header {
+  margin-top: 10px;
+  margin-bottom: 140px;
+}
+.section-payment .box-payment {
+  overflow: hidden;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+}
+.section-payment .box-payment .logo-payment {
+  margin-top: -50px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.section-payment .box-payment .payment-method h5 {
+  font-size: 14px;
+  overflow: hidden;
+}
+.section-payment .box-payment .payment-method input:checked + label {
+  color: orange;
+}
+.section-payment .box-payment .payment-method img {
+  margin-top: -3px;
+  width: 22px;
+  height: 22px;
+}
+.section-payment .box-payment .payment-method label {
+  font-size: 15px;
+}
+.section-payment .box-payment .detail-payment h5 {
+  font-size: 14px;
+  overflow: hidden;
+}
+.section-payment .box-payment .detail-payment p {
+  font-size: 10px;
+}
+
+.section-login .logo-header {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.section-login .form-login p {
+  font-weight: bolder;
+  font-size: 42px;
+  font-family: "Poppins";
+}
+.section-login .form-login .email {
+  margin-left: -105px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+.section-login .form-login .password {
+  margin-left: -140px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.section-login .form-login input {
+  border: none;
+  background-color: #494949;
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+.section-login .form-login ::-moz-placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.section-login .form-login :-ms-input-placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.section-login .form-login ::placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.section-login .form-login .btn-login {
+  margin-top: 30px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  width: 172px;
+  height: 42px;
+}
+.section-login .form-login span {
+  margin-top: 30px;
+  margin-left: -63px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.section-login .form-login a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}/*# sourceMappingURL=form.css.map */

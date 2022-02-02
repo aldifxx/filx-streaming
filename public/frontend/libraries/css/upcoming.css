@@ -1,0 +1,16 @@
+#upcoming {
+  color: white;
+  position: relative;
+}
+
+.M1 {
+  margin-top: 80px;
+}
+
+.img-thumbnail {
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 280px;
+  height: 350px;
+}

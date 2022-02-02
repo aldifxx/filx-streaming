@@ -1,0 +1,223 @@
+#populer {
+  color: white;
+  position: relative;
+}
+
+.M1 {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.img-thumbnail {
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 280px;
+  height: 350px;
+}
+
+.title-2 {
+  top: 44%;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.sinopsis-2 {
+  top: 65%;
+  position: absolute;
+  color: white;
+  text-align: justify;
+  margin-left: 10px;
+  font-size: 9px;
+}
+
+.title-3 {
+  top: 83%;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.sinopsis-3 {
+  top: 87%;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 40px;
+  font-size: 10px;
+}
+
+.sinopsis-4 {
+  top: 89%;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 10px;
+}
+
+@media (min-width: 312px) and (max-width: 425px) {
+  .col {
+    align-items: center;
+    width: 400px;
+    display: flex;
+  }
+
+  .img-thumbnail {
+    width: 400px;
+    height: 400px;
+  }
+
+  #populer {
+    color: white;
+    position: relative;
+  }
+
+  .img-thumbnail {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 280px;
+    height: 350px;
+  }
+
+  #joker {
+    top: 20%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 25px;
+  }
+
+  #joker-1 {
+    top: 22%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  #joker-2 {
+    top: 23%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  #games {
+    top: 38%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 25px;
+  }
+
+  #games-1 {
+    top: 40%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  #games-2 {
+    top: 41%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  #free {
+    top: 56%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 25px;
+  }
+
+  #free-1 {
+    top: 58%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  #free-2 {
+    top: 59%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  #combat {
+    top: 74%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 25px;
+  }
+
+  #combat-1 {
+    top: 76%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  #combat-2 {
+    top: 77%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  .title-3 {
+    top: 92%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 25px;
+  }
+
+  .sinopsis-3 {
+    top: 94%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+
+  .sinopsis-4 {
+    top: 95%;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: -256px;
+    font-size: 10px;
+  }
+}
